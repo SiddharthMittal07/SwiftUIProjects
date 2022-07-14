@@ -2,7 +2,7 @@
 I created this app to create mock on-boarding and registeration, verification screens which are shown when creating an account on the app or logging into an already created one. The app only has screens and I created it to learn the basics of SwiftUI while transitioning from flutter and react-native to native IOS.
 
 ### ON-BOARDING SCREEN
-![On-boarding Screen](https://github.com/SiddharthMittal07/SwiftUIProjects/blob/main/FoodApp/images/onboarding1.png)
+![On-boarding Screen](https://github.com/SiddharthMittal07/SwiftUIProjects/blob/main/FoodApp/images/onboarding1.png =100x100)
 ![On-boarding Screen](https://github.com/SiddharthMittal07/SwiftUIProjects/blob/main/FoodApp/images/onboarding2.png)
 
 ### SIGN-IN SCREEN
