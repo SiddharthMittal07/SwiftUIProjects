@@ -32,7 +32,7 @@ class VideoManager: ObservableObject {
             guard let url = URL(string: "https://api.pexels.com/videos/search?query=\(topic)&per_page=50&orientation=portrait") else { fatalError("Missing URL") }
             
             var urlRequest = URLRequest(url: url)
-            urlRequest.setValue("563492ad6f91700001000001d06e12070fb94051b21d393f98bb7fa3", forHTTPHeaderField: "Authorization")
+            urlRequest.setValue("YOUR_AUTHORIZATION_API_KEY_HERE", forHTTPHeaderField: "Authorization")
             let (data, response) = try await URLSession.shared.data(for: urlRequest)
             
             guard (response as? HTTPURLResponse)?.statusCode == 200 else {
